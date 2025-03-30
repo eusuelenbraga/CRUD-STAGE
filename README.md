@@ -4,20 +4,25 @@
 
 ## 🏁 Visão Geral:
 
-O projeto consiste em uma aplicação web completa que permite aos usuários interagir com dados armazenados em um banco de dados MySQL. O backend, construído com Node.js e Express, fornece uma API RESTful para comunicação com o frontend ReactJS.
+O projeto consiste em uma aplicação web completa que permite aos usuários interagir com dados armazenados em um banco de dados MySQL. 
+O backend, construído com Node.js e Express, fornece uma API RESTful para comunicação com o frontend ReactJS.
 
 ## 👷 Arquitetura:
 
 A arquitetura do projeto é dividida em três camadas principais:
 
 •	Banco de Dados (MySQL): Armazena os dados da aplicação de forma estruturada. Utilizado para persistência de dados;
+
 •	Backend (Node.js/Express): Fornece uma API RESTful para comunicação com o frontend. Responsável pela lógica de negócios e acesso ao banco de dados; 
+
 •	Frontend (ReactJS): Interface responsiva do usuário para interação com a aplicação. Consome a API RESTful do backend para exibir e manipular dados. Utiliza bibliotecas como axios para fazer requisições HTTP;
 
 ## 🚀 Tecnologias:
 
 •	Banco de dados: MySQL/Worckbench;
+
 •	Backend: Node.js (npm e dependências necessárias para express/mysql/cors);
+
 •	Frontend: React.js e Axios (requisições para a API);
 
 
